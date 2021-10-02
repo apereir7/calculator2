@@ -1,0 +1,48 @@
+body {
+    background-color : black;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#result {
+    background-color: aliceblue;
+    height: 50px;
+    width: 1000px;
+}
+
+.button {
+    background-color: rgb(207, 221, 212);
+    cursor: pointer;
+    justify-content: center;
+    
+}
+
+.button:target {
+    color: rgb(10, 9, 8);
+}
+
+.button:hover {
+    background-color: silver;
+}
+
+#buttons {
+    margin-top: 200px;
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-columns: 50px 50px 50px 50px 50px;
+    justify-content: center;
+}
+
+#button0 {
+    height: 50px;
+}
+
+#display {
+    grid-row: 1/1;
+    grid-column: 1/6;
+    background-color: #f0fffffc;
+    word-wrap: break-word;
+    overflow: auto;
+    text-align: right;
+}
